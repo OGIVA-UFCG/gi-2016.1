@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: artigo.aux
 The style file: bmc-mathphys.bst
@@ -20,78 +20,94 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: artigo_bibliografia.bib
-Warning--entry type for "Visible:2013" isn't style-file defined
---line 72 of file artigo_bibliografia.bib
 Warning--entry type for "Campos:2016" isn't style-file defined
---line 79 of file artigo_bibliografia.bib
+--line 30 of file artigo_bibliografia.bib
 Warning--entry type for "Jose:2016" isn't style-file defined
---line 86 of file artigo_bibliografia.bib
+--line 37 of file artigo_bibliografia.bib
 Warning--entry type for "Brodkin" isn't style-file defined
---line 104 of file artigo_bibliografia.bib
-I was expecting a `,' or a `}'---line 106 of file artigo_bibliografia.bib
- : title = {Ubuntu maker boosted revenue in 2013 but doubled loss to \$21 million}
- :                                                                                .
+--line 45 of file artigo_bibliografia.bib
+I was expecting a `,' or a `}'---line 47 of file artigo_bibliografia.bib
+ :   title = {Ubuntu maker boosted revenue in 2013 but doubled loss to \$21 million}
+ :                                                                                  .
 I'm skipping whatever remains of this entry
 Warning--entry type for "Red" isn't style-file defined
---line 111 of file artigo_bibliografia.bib
-I was expecting a `,' or a `}'---line 113 of file artigo_bibliografia.bib
- : title = {"RED HAT INC 2014 Annual Report Form (10-K)"}
- :                                                       .
+--line 52 of file artigo_bibliografia.bib
+I was expecting a `,' or a `}'---line 54 of file artigo_bibliografia.bib
+ :   title = {"RED HAT INC 2014 Annual Report Form (10-K)"}
+ :                                                         .
 I'm skipping whatever remains of this entry
 Warning--entry type for "Mozilla" isn't style-file defined
---line 118 of file artigo_bibliografia.bib
-I was expecting a `,' or a `}'---line 120 of file artigo_bibliografia.bib
- : title = {INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS}
- :                                                                             .
+--line 59 of file artigo_bibliografia.bib
+I was expecting a `,' or a `}'---line 61 of file artigo_bibliografia.bib
+ :   title = {INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS}
+ :                                                                               .
 I'm skipping whatever remains of this entry
 Warning--entry type for "Hecker:2016" isn't style-file defined
---line 125 of file artigo_bibliografia.bib
+--line 66 of file artigo_bibliografia.bib
 Warning--entry type for "Castro" isn't style-file defined
---line 132 of file artigo_bibliografia.bib
+--line 73 of file artigo_bibliografia.bib
+Warning--entry type for "RHEL" isn't style-file defined
+--line 80 of file artigo_bibliografia.bib
+Warning--entry type for "Google" isn't style-file defined
+--line 87 of file artigo_bibliografia.bib
+Warning--entry type for "Gorokhova" isn't style-file defined
+--line 94 of file artigo_bibliografia.bib
+Warning--entry type for "Ricardo" isn't style-file defined
+--line 101 of file artigo_bibliografia.bib
+Warning--entry type for "FSF" isn't style-file defined
+--line 108 of file artigo_bibliografia.bib
+Warning--entry type for "Softex" isn't style-file defined
+--line 115 of file artigo_bibliografia.bib
+Warning--entry type for "Tadeu" isn't style-file defined
+--line 122 of file artigo_bibliografia.bib
+Warning--entry type for "Giz" isn't style-file defined
+--line 129 of file artigo_bibliografia.bib
+Warning--entry type for "Open" isn't style-file defined
+--line 136 of file artigo_bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 13 entries,
+You've used 18 entries,
             7128 wiz_defined-function locations,
-            1197 strings with 10850 characters,
-and the built_in function-call counts, 566591 in all, are:
-= -- 112476
-> -- 168
-< -- 86
-+ -- 75143
-- -- 111
-* -- 8455
-:= -- 95135
-add.period$ -- 10
-call.type$ -- 13
-change.case$ -- 210
-chr.to.int$ -- 107
-cite$ -- 13
-duplicate$ -- 805
-empty$ -- 1714
-format.name$ -- 168
-if$ -- 149332
+            1215 strings with 11570 characters,
+and the built_in function-call counts, 977532 in all, are:
+= -- 195130
+> -- 205
+< -- 97
++ -- 131258
+- -- 174
+* -- 13738
+:= -- 163466
+add.period$ -- 15
+call.type$ -- 18
+change.case$ -- 351
+chr.to.int$ -- 93
+cite$ -- 18
+duplicate$ -- 1073
+empty$ -- 2196
+format.name$ -- 216
+if$ -- 258291
 int.to.chr$ -- 1
-int.to.str$ -- 28
-missing$ -- 396
-newline$ -- 305
-num.names$ -- 65
-pop$ -- 467
+int.to.str$ -- 37
+missing$ -- 553
+newline$ -- 385
+num.names$ -- 90
+pop$ -- 645
 preamble$ -- 1
-purify$ -- 53
-quote$ -- 26
-skip$ -- 69821
+purify$ -- 72
+quote$ -- 36
+skip$ -- 121410
 stack$ -- 0
-substring$ -- 50016
-swap$ -- 126
-text.length$ -- 216
+substring$ -- 86036
+swap$ -- 132
+text.length$ -- 308
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 436
+type$ -- 570
 warning$ -- 0
-while$ -- 334
+while$ -- 466
 width$ -- 0
-write$ -- 354
+write$ -- 451
 (There were 3 error messages)

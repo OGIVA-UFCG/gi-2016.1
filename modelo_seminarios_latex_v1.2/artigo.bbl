@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{13}
+\begin{thebibliography}{18}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -52,65 +52,42 @@ http://br-linux.org/linux/faq-softwarelivre
 \endbibitem
 
 %%% 2
-\bibitem{Rosenfeld:1970}
-\begin{bchapter}
-\bauthor{\bsnm{Rosenfeld}, \binits{A.}},
-\bauthor{\bsnm{Troy}, \binits{E.B.}}:
-\bctitle{Visual Texture Analysis}.
-In: \bbtitle{A Symposium on Feature Extraction and Selection in Pattern
-  Recognition},
-vol. \bseriesno{1},
-pp. \bfpage{115}--\blpage{124}
-(\byear{1970})
-\end{bchapter}
+\bibitem{Gorokhova}
+\begin{botherref}
+\oauthor{\bsnm{Gorokhova}, \binits{A.}}:
+Software as a Product Vs. Software as a Service.
+https://blog.bynder.com/en/knowledge/our-blog/software-as-a-product-vs-software-as-a-service
+\end{botherref}
 \endbibitem
 
 %%% 3
-\bibitem{Domingues:2010}
+\bibitem{Ricardo}
 \begin{botherref}
-\oauthor{\bparticle{de} \bsnm{Oliveira~Domingues}, \binits{M.A.}}:
-M{\'e}todos robustos de regress{\~a}o linear para dados simb{\'o}licos do tipo
-  intervalo.
-PhD thesis,
-Universidade Federal de Pernambuco (UFPE),
-Recife
-(2010)
+\oauthor{\bsnm{Ricardo}, \binits{A.}}:
+O Que e SaaS, IaaS e PaaS em Cloud Computing? (Conceitos Basicos).
+https://antonioricardo.org/2013/03/28/o-que-e-saas-iaas-e-paas-em-cloud-computing-conceitos-basicos/
 \end{botherref}
 \endbibitem
 
 %%% 4
-\bibitem{Diday:1989}
+\bibitem{Open}
 \begin{botherref}
-\oauthor{\bsnm{Diday}, \binits{E.}}:
-Introduction {\`a} l'analyse des donn{\'e}es symboliques.
-Research report,
-Institut National de Recherche en Informatique et en Automatique, INRIA
-(1989)
+\oauthor{\bsnm{Openstack}}:
+What Is OpenStack?
+https://www.openstack.org/software/
 \end{botherref}
 \endbibitem
 
 %%% 5
-\bibitem{Visible:2013}
+\bibitem{FSF}
 \begin{botherref}
-\oauthor{\bsnm{Lutkebohle}, \binits{I.}}:
-BWorld Robot Control Software.
-http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
+\oauthor{\bsnm{Foundation}, \binits{F.S.}}:
+O Que {\'E} O Software Livre?
+https://www.gnu.org/philosophy/free-sw.pt-br.html
 \end{botherref}
 \endbibitem
 
 %%% 6
-\bibitem{Fulano:2009}
-\begin{bbook}
-\bauthor{\bparticle{de} \bsnm{tal}, \binits{F.}}:
-\bbtitle{Livro de Eng. Civil},
-\bedition{6}th edn.
-\bpublisher{McGraw-Hill, Inc.},
-\blocation{New York, NY, USA}
-(\byear{2005})
-\end{bbook}
-\endbibitem
-
-%%% 7
 \bibitem{Jose:2016}
 \begin{botherref}
 \oauthor{\bsnm{Silva}, \binits{J.}}:
@@ -119,7 +96,7 @@ https://www.vivaolinux.com.br/artigo/Economia-e-liberdade-o-software-livre-une-o
 \end{botherref}
 \endbibitem
 
-%%% 8
+%%% 7
 \bibitem{Hecker:2016}
 \begin{botherref}
 \oauthor{\bsnm{Hecker}, \binits{F.}}:
@@ -128,7 +105,7 @@ http://hecker.org/writings/setting-up-shop
 \end{botherref}
 \endbibitem
 
-%%% 9
+%%% 8
 \bibitem{Castro}
 \begin{botherref}
 \oauthor{\bparticle{de} \bsnm{Castro}, \binits{D.}}:
@@ -137,7 +114,7 @@ http://www.ebc.com.br/tecnologia/2015/07/entenda-por-que-software-livre-e-mais-s
 \end{botherref}
 \endbibitem
 
-%%% 10
+%%% 9
 \bibitem{Brodkin}
 \begin{botherref}
 \oauthor{\bsnm{Brodkin}, \binits{J.}}:
@@ -145,7 +122,7 @@ Ubuntu Maker Boosted Revenue in 2013 but Doubled Loss to \$21 Million
 \end{botherref}
 \endbibitem
 
-%%% 11
+%%% 10
 \bibitem{Mozilla}
 \begin{botherref}
 \oauthor{\bsnm{Mozilla}}:
@@ -153,7 +130,7 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
 \end{botherref}
 \endbibitem
 
-%%% 12
+%%% 11
 \bibitem{Red}
 \begin{botherref}
 \oauthor{\bsnm{Hat}, \binits{R.}}:
@@ -161,7 +138,37 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
 \end{botherref}
 \endbibitem
 
+%%% 12
+\bibitem{RHEL}
+\begin{botherref}
+\oauthor{\bsnm{Hat}, \binits{R.}}:
+Red Hat Enterprise Linux.
+https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+\end{botherref}
+\endbibitem
+
 %%% 13
+\bibitem{SUSE}
+\begin{barticle}
+\bauthor{\bsnm{Zanetti}, \binits{D.G.}}:
+\batitle{Suse linux 9.1 - o poderoso e vers{\'a}til linux da novell}.
+\bjtitle{Viva o Linux}
+\bvolume{1}(\bissue{1}),
+\bfpage{1}--\blpage{6}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{Google}
+\begin{botherref}
+\oauthor{\bsnm{Terra}}:
+Google Paga US\$ 900 Mi Para Ser Buscador Padr{\~a}o do Firefox.
+https://tecnologia.terra.com.br/negocios-e-ti/google-paga-us-900-mi-para-ser-buscador-padrao-do-firefox,13a8e194c2bda310VgnCLD200000bbcceb0aRCRD.html
+\end{botherref}
+\endbibitem
+
+%%% 15
 \bibitem{riehle2012single}
 \begin{barticle}
 \bauthor{\bsnm{Riehle}, \binits{D.}}:
@@ -171,6 +178,34 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
 \bfpage{5}--\blpage{17}
 (\byear{2012})
 \end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{Softex}
+\begin{botherref}
+\oauthor{\bsnm{Softex}}:
+Software Livre: Tend{\^e}ncias, Oportunidades, Desafios.
+http://www.softex.br/wp-content/uploads/2016/04/caderno-tematico-software-livre.pdf
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem{Tadeu}
+\begin{botherref}
+\oauthor{\bsnm{Tadeu}, \binits{E.}}:
+Receita de Fabricantes de Software Com SaaS Cresce 60\% em Um Ano e Atinge US\$
+  20 Bi.
+http://convergecom.com.br/tiinside/18/03/2014/receita-de-fabricantes-de-software-com-saas-cresce-60-e-atinge-us-20-bilhoes/
+\end{botherref}
+\endbibitem
+
+%%% 18
+\bibitem{Giz}
+\begin{botherref}
+\oauthor{\bsnm{Ventura}, \binits{F.}}:
+Apple e Google Querem Que Voc{\^e} Pague Por Assinatura Em apps.
+http://gizmodo.uol.com.br/apple-google-assinatura-apps/
+\end{botherref}
 \endbibitem
 
 \end{thebibliography}
@@ -191,60 +226,43 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
 </bibl>
 
 <bibl id="B2">
-  <title><p>Visual texture analysis</p></title>
+  <title><p>Software as a Product vs. Software as a Service</p></title>
   <aug>
-    <au><snm>Rosenfeld</snm><fnm>A.</fnm></au>
-    <au><snm>Troy</snm><fnm>E. B.</fnm></au>
+    <au><snm>Gorokhova</snm><fnm>A</fnm></au>
   </aug>
-  <source>A Symposium on Feature Extraction and Selection in Pattern
-  Recognition</source>
-  <pubdate>1970</pubdate>
-  <volume>1</volume>
-  <fpage>115</fpage>
-  <lpage>124</lpage>
+  <pubdate>2016</pubdate>
+  <note>https://blog.bynder.com/en/knowledge/our-blog/software-as-a-product-vs-software-as-a-service</note>
 </bibl>
 
 <bibl id="B3">
-  <title><p>M{\'e}todos Robustos de Regress{\~a}o Linear para Dados
-  Simb{\'o}licos do Tipo Intervalo</p></title>
+  <title><p>O que e SaaS, IaaS e PaaS em Cloud Computing? (Conceitos
+  basicos)</p></title>
   <aug>
-    <au><snm>Oliveira Domingues</snm><fnm>MA</fnm></au>
+    <au><snm>Ricardo</snm><fnm>A</fnm></au>
   </aug>
-  <source>PhD thesis</source>
-  <publisher>Universidade Federal de Pernambuco (UFPE)</publisher>
-  <pubdate>2010</pubdate>
+  <pubdate>2013</pubdate>
+  <note>https://antonioricardo.org/2013/03/28/o-que-e-saas-iaas-e-paas-em-cloud-computing-conceitos-basicos/</note>
 </bibl>
 
 <bibl id="B4">
-  <title><p>Introduction {\`a} l'analyse des donn{\'e}es
-  symboliques.</p></title>
+  <title><p>What is OpenStack?</p></title>
   <aug>
-    <au><snm>Diday</snm><fnm>E</fnm></au>
+    <au><cnm>Openstack</cnm></au>
   </aug>
-  <source>Research Report</source>
-  <pubdate>1989</pubdate>
+  <pubdate>2016</pubdate>
+  <note>https://www.openstack.org/software/</note>
 </bibl>
 
 <bibl id="B5">
-  <title><p>BWorld Robot Control Software</p></title>
+  <title><p>O que {\'e} o software livre?</p></title>
   <aug>
-    <au><snm>Lutkebohle</snm><fnm>I</fnm></au>
+    <au><snm>Foundation</snm><fnm>FS</fnm></au>
   </aug>
-  <pubdate>2008</pubdate>
-  <note>http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008</note>
+  <pubdate>2016</pubdate>
+  <note>https://www.gnu.org/philosophy/free-sw.pt-br.html</note>
 </bibl>
 
 <bibl id="B6">
-  <title><p>Livro de Eng. Civil</p></title>
-  <aug>
-    <au><snm>tal</snm><fnm>F</fnm></au>
-  </aug>
-  <publisher>New York, NY, USA: McGraw-Hill, Inc.</publisher>
-  <edition>6</edition>
-  <pubdate>2005</pubdate>
-</bibl>
-
-<bibl id="B7">
   <title><p>Economia e liberdade: o software livre une o {\'u}til ao
   agrad{\'a}vel</p></title>
   <aug>
@@ -254,7 +272,7 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
   <note>https://www.vivaolinux.com.br/artigo/Economia-e-liberdade-o-software-livre-une-o-util-ao-agradavel</note>
 </bibl>
 
-<bibl id="B8">
+<bibl id="B7">
   <title><p>Setting Up Shop: The Business of Open-Source Software</p></title>
   <aug>
     <au><snm>Hecker</snm><fnm>F</fnm></au>
@@ -263,7 +281,7 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
   <note>http://hecker.org/writings/setting-up-shop</note>
 </bibl>
 
-<bibl id="B9">
+<bibl id="B8">
   <title><p>Entenda por que software livre {\'e} mais seguro</p></title>
   <aug>
     <au><snm>Castro</snm><fnm>D</fnm></au>
@@ -272,7 +290,7 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
   <note>http://www.ebc.com.br/tecnologia/2015/07/entenda-por-que-software-livre-e-mais-seguro-que-software-proprietario</note>
 </bibl>
 
-<bibl id="B10">
+<bibl id="B9">
   <title><p>Ubuntu maker boosted revenue in 2013 but doubled loss to \$21
   million</p></title>
   <aug>
@@ -280,7 +298,7 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
   </aug>
 </bibl>
 
-<bibl id="B11">
+<bibl id="B10">
   <title><p>INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL
   STATEMENTS</p></title>
   <aug>
@@ -288,14 +306,48 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
   </aug>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B11">
   <title><p>"RED HAT INC 2014 Annual Report Form (10-K)"</p></title>
   <aug>
     <au><snm>Hat</snm><fnm>R</fnm></au>
   </aug>
 </bibl>
 
+<bibl id="B12">
+  <title><p>Red Hat Enterprise Linux</p></title>
+  <aug>
+    <au><snm>Hat</snm><fnm>R</fnm></au>
+  </aug>
+  <pubdate>2016</pubdate>
+  <note>https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux</note>
+</bibl>
+
 <bibl id="B13">
+  <title><p>SuSE Linux 9.1 - O poderoso e vers{\'a}til Linux da
+  Novell</p></title>
+  <aug>
+    <au><snm>Zanetti</snm><fnm>DG</fnm></au>
+  </aug>
+  <source>Viva o Linux</source>
+  <publisher>Viva o Linux</publisher>
+  <pubdate>2004</pubdate>
+  <volume>1</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-6</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Google paga US\$ 900 mi para ser buscador padr{\~a}o do
+  Firefox</p></title>
+  <aug>
+    <au><cnm>Terra</cnm></au>
+  </aug>
+  <pubdate>2016</pubdate>
+  <note>https://tecnologia.terra.com.br/negocios-e-ti/google-paga-us-900-mi-para-ser-buscador-padrao-do-firefox,13a8e194c2bda310VgnCLD200000bbcceb0aRCRD.html</note>
+</bibl>
+
+<bibl id="B15">
   <title><p>The single-vendor commercial open course business model</p></title>
   <aug>
     <au><snm>Riehle</snm><fnm>D</fnm></au>
@@ -307,6 +359,36 @@ INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
   <issue>1</issue>
   <fpage>5</fpage>
   <lpage>-17</lpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>Software Livre: Tend{\^e}ncias, oportunidades,
+  desafios.</p></title>
+  <aug>
+    <au><cnm>Softex</cnm></au>
+  </aug>
+  <pubdate>2013</pubdate>
+  <note>http://www.softex.br/wp-content/uploads/2016/04/caderno-tematico-software-livre.pdf</note>
+</bibl>
+
+<bibl id="B17">
+  <title><p>Receita de fabricantes de software com SaaS cresce 60\% em um ano e
+  atinge US\$ 20 bi</p></title>
+  <aug>
+    <au><snm>Tadeu</snm><fnm>E</fnm></au>
+  </aug>
+  <pubdate>2014</pubdate>
+  <note>http://convergecom.com.br/tiinside/18/03/2014/receita-de-fabricantes-de-software-com-saas-cresce-60-e-atinge-us-20-bilhoes/</note>
+</bibl>
+
+<bibl id="B18">
+  <title><p>Apple e Google querem que voc{\^e} pague por assinatura em
+  apps</p></title>
+  <aug>
+    <au><snm>Ventura</snm><fnm>F</fnm></au>
+  </aug>
+  <pubdate>2016</pubdate>
+  <note>http://gizmodo.uol.com.br/apple-google-assinatura-apps/</note>
 </bibl>
 
 </refgrp>

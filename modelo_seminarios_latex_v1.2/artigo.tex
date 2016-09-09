@@ -159,45 +159,22 @@ Este artigo seguirá a seguinte estrutura: na seção 2, será mostrada a motiva
 
 
 %------------------------------------------------
-% Seção 2
+% Motivação
 %------------------------------------------------
 \section{Motivação}
 
-If we assume that sensitive cells follow a deterministic decay $Z_0(t) = xe^{\lambda_0 t}$ and approximate their extinction time as $T_x \approx \frac{1}{\lambda_0} \log x$, then we can heuristically estimate the expected value as:
+A utilização de \textit{softwares} livres vem aumentado em diversas áreas, desde instituições governamentais às empresas de iniciativa privada. A possibilidade de inovação à um baixo custo aumenta o número de adeptos desta prática.
 
-\begin{eqnarray}
-\label{eqexpmuts}
-  E [Z_1(vT_x)] &=& \frac{\mu}{r}\log x \int_0^{1} x^{1-u} du \\
-  E [Z_1(vT_x)] &=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log  \\
-  1 &=& 10
-\end{eqnarray}
+Ao produzir \textit{software} livre, é possível compartilhar conhecimentos com toda a comunidade desenvolvedora, descentralizando o trabalho de desenvolvimento e melhorando a qualidade desses softwares.
 
-\begin{equation}
-  E [Z_1(vT_x)] = \frac{\mu}{r}\log x \int_0^{1} x^{1-u} du \\
-  E [Z_1(vT_x)] = \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log 
-\end{equation}
-
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{Rosenfeld:1970}).
+Baseado nisso, o tema do seguinte trabalho foi escolhido por se tratar de um assunto de enorme abrangência e importância para a Computação, além de envolver as áreas de desenvolvimento e engenharia de \textit{software}.
 
 %------------------------------------------------
-% Sub-seção
-%------------------------------------------------
-\subsection{Exemplo de Sub-Seção}
-
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In addition, we examine a common modeling assumption and note the importance of considering the tails of the extinction time $T_x$ in studies of escape dynamics. We will first consider the expected resistant population at $vT_x$ for some $v>0$, (and temporarily assume $\alpha=0$).
-
-\begin{eqnarray}
-E [Z_1(vT_x)]= \mu T_x \int_{0}^{\inf} \lambda_1T_x(v-u)du
-\end{eqnarray}
-
-If we assume that sensitive cells follow a deterministic decay $Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as $T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically estimate the expected value as.
-
-%------------------------------------------------
-% Exemplo de Tabela
+% Desenvolvimento
 %------------------------------------------------
 \section{Software Livre}
 
-Por \textit{Software} Livre entende-se aquele que respeita a liberdade e o censo de comunidade do usuário. Isto é, todo o \textit{software} que pode ser usado, copiado, estudado, modificado e redistribuído sem restrições.
+Por \textit{Software} Livre \cite{Campos:2016} entende-se aquele que respeita a liberdade e o censo de comunidade do usuário. Isto é, todo o \textit{software} que pode ser usado, copiado, estudado, modificado e redistribuído sem restrições.
 
 Durante a década de 60, quando os computadores eram mais utilizados em empresas e instituições governamentais, não havia a ideia de \textit{software} e \textit{hardware} como algo separado, do ponto de vista comercial. Em geral, o \textit{software} era entregue junto com o código-fonte, ou apenas este último era entregue. Devido a isso, grupos e comunidades de usuários que trocavam informações e compartilhavam código eram comuns. A partir daí, pode-se afirmar que o \textit{software} era livre, em suas origens.
 
@@ -216,25 +193,59 @@ Algo a ser esclarecido é que \textit{software} livre é diferente de \textit{so
 Entram então alguns conceitos importantes a respeito de \textit{software} livre, tais como \textit{software} como um produto (SaaP), \textit{software} como um serviço (SaaS) e os componentes da procução de \textit{software}.
 
 
-\subsection{Software as a Product}
+\subsection{Software as a Product - SaaP}
 
-\textit{Software as a Product} é a referência ao \textit{software} oferecido como produto. Pensando-se em \textit{software} proprietário, um exemplo seria a compra de uma licença de uso de um produto como o Microsoft Office, em que a compra proporciona o uso do \textit{software} sem custos adicionais, nem assinatura mensal. É a política do "comprei, é meu", limitada a um \textit{software} que não tem código aberto.
+\textit{Software as a Product}\cite{Gorokhova} é a referência ao \textit{software} oferecido como produto. Pensando-se em \textit{software} proprietário, um exemplo seria a compra de uma licença de uso de um produto como o Microsoft Office, em que a compra proporciona o uso do \textit{software} sem custos adicionais, nem assinatura mensal. É a política do "comprei, é meu", limitada a um \textit{software} que não tem código aberto.
 
 De volta ao contexto de \textit{software} livre, como exemplo de produto, há o Ubuntu, distribuição Linux desenvolvida pela Canonical. Ao instalar o sistema, o usuário têm o produto por quanto tempo quiser. Adaptando a política citada acima, para o \textit{software} livre, o certo a dizer é então "baixei, é meu".
 
 O Ubuntu é apenas um exemplo de produto. Há vários outros, como a maior parte das distribuições Linux, \textit{softwares} comuns como o Firefox (Mozilla), e ferramentas avançadas de desenvolvimento, como Gimp (GNU), Eclipse e Netbeans (Oracle). Esses programas são de código aberto, e o usuário escolhe a versão que deseja, bem como as atualizações. No entanto, há o outro lado dos \textit{softwares}: os que são feitos para estarem constantemente integrados e atualizados. Daí vem o conceito de \textit{software} como um serviço.
 
-\subsection{Software as a Service}
+\subsection{Software as a Service - SaaS}
 
-olar
+O Software como Serviço, do inglês \textit{Software as a Service} (SaaS), é o nome que se dá ao modo de comercialização de \textit{software} que não se baseia na venda de licenças de uso, e sim na cobrança de uma taxa regular para sua utilização \cite{Gorokhova}. Diferente da forma tradicional de distribuição de \textit{software}, onde os usuários adquirem uma licença e são responsáveis pela instalação e manutenção do sistema, essas aplicações podem ser executadas exclusivamente nos servidores dos seus provedores, fazendo-se necessária ao usuário apenas uma conexão com a Internet para utilizá-las, ou diretamente no computador do usuário.
+
+Neste modelo, os fornecedores são inteiramente responsáveis pela manutenção das estruturas necessárias (servidores, conexões, segurança, entre outras) para a disponibilização do sistema, e o usuário utiliza o serviço através da Internet mediante pagamento de uma certa taxa recorrente \cite{Ricardo}. 
+
+Existem diversas formas de se cobrar por estes serviços. As mais comuns variam entre cobrar um valor (na maioria das vezes mensal) proporcional ao número de licenças utilizadas, cobrar um valor proporcional ao uso, e modelos \textit{freemium} que oferecem serviços gratuitos mas cobram por recursos adicionais.
+
+Um exemplo de SaaS é o OpenStack, oferecido pela empresa RedHat, que está para a computação em nuvem assim como o sistema operacional está para os computadores. Trata-se de um conjunto de softwares que possibilitam a criação de ferramentas para o gerenciamento de nuvens públicas ou privadas, planejado numa parceria entre a NASA e a RacksPace Hosting com o objetivo de que as empresas consumissem serviços em nuvem com elementos de \textit{hardware} padrão \cite{Open}.
 
 \subsection{Componentes da Produção de Software}
 
-acesso ao software
+De acordo com a definição criada pela Free Software Foundation, \textit{software} livre é aquele que pode ser usado, modificado, estudado, copiado e redistribuído sem restrições \cite{FSF}. Para um usuário leigo, isso talvez não signifique muita coisa, mas para um usuário desenvolvedor, lhe dá a liberdade de modificar o \textit{software} livremente para que melhor se adapte as suas necessidades, ou para redistribuí-lo de alguma forma. É o que acontece com o sistema operacional Ubuntu, patrocinado pela empresa Cannonical Ltd., que permite que seus usuarios contribuam para o desenvolvimento do sistema.
+
+A liberdade de modificar ou redistribuir o \textit{software} implica na necessidade de acesso ao código-fonte, mas para que essa liberdade seja real, essas modificações devem acontecer sem que o distribuidor original possa refutá-las sem algum motivo. Caso isso aconteça, o software não é livre \cite{FSF}.
+
+Para isso, foram criadas as licenças de \textit{software}, que consistem nas ações que um usuário pode ou não executar em relação a um determinado software.
 
 \section{Licenças de Publicação}
 
-tarara
+Após o crescimento exponencial da produção de dispositivos eletrônicos e com a popularização dos mesmos, iniciou-se uma grande demanda pela produção de programas lógicos que pudessem tornar os dispositivos físicos mais úteis e aplicáveis para o público em geral. A produção de \textit{software} teve um aumento de mercado e procura, com isso surgiram formas de regulamentação da venda ou distribuição dessas aplicações.
+
+Uma licença de software pode ser caracterizado como uma forma de comportamento relacionada com a redistribuição de \textit{software}, a exemplo dos Estados Unidos, toda distibuição de software está sob a proteção de \textit{copyright} (ou direito de cópia).
+
+O \textit{copyright} é um direito legal que garante ao criador de um trabalho (no caso, desenvolvedores de \textit{software}) direitos exclusivos sobre a sua obra. O código fonte é considerado como propriedade intelectual do autor, podendo ser ele uma empresa, um grupo isolado de desenvolvedores ou um único programador.
+
+As licenças de software garantem ao licenciado (usualmente, o licenciado é o usuário final, ver subseção 1.3) de um \textit{software}, normalmente, uso livre nas fronteiras dos direitos exclusivos do distribuidor. A exceção é a licença de domínio público, onde a cópia, distribuição e modificação são permitidas sobre um código fonte de uma aplicação.
+Existem duas licenças maiores que se distinguem em como elas se comportam em relação a duas permissões básicas: o direito de modificar e reusar um \textit{software}. A primeira é a licença proprietária (popularmente conhecida como código fechado), nela, ambos os direitos de modificação e reuso não são licenciados, a outra é a licenças de código \textit{FOSS} (\textit{Free and Open Source Software}) onde ambos os direitos são garantidos para o licenciado.
+
+\begin{table}[h!]
+\label{tag_tabela_2}
+\caption{Resumo dos direitos garantidos pelas licenças de software}
+	\begin{tabular}{ccccc}
+	\hline
+	Direito de		&	Domínio Público	&	\textit{FOSS}	&	Licença Proprietária \\ \hline
+	Cópia	&	Sim	&	Sim	&	Não							\\
+	Modificar	&	Sim	&	Sim	&	Não						\\
+	Distribuição	&	Sim	&	Sob a mesma licença	&	Não\\ \hline
+	\end{tabular}
+	\end{table}
+	
+Alguns exemplos de \textit{software} sob cada uma das licenças são: SQLite e o CERN HTTPd para licenças de domínio público; o kernel do Linux e o \textit{webserver} Apache para licenças de software livre e o Windows e o Mac OSX.
+Dentro da licença \textit{FOSS}, várias empresas mantêm definições no tocante as suas licenças. Contudo, a Free Software Foundation segue uma definição mais geral de \textit{software} livre e dispõe de diversas licenças seguindo tal definição. As licenças compatíveis com as orientações da Free Software Foundation são categorizados como produtos sob a licença \textit{copylefted}. Dentro do \textit{copyleft}, temos inúmeros e distintos exemplos de licenças de \textit{software}, um deles é a \textit{General Public License} que garante o direito ilimitado de reprodução, cópia, estudo e modificação. 
+
+Existem também as chamadas licenças permissivas que tem como objetivo estabelecer o mínimo de requerimentos possíveis para a distribuição e uso do \textit{software}. Entre elas estão a licença BSD (\textit{Berkeley Software Distribution}) e a \textit{MIT License}, que obtém o mínimo de restrição no quesito distribuição, porém com livre acesso para uso, estudo, cópia, etc. Assim, licenças permissivas permitem o uso do \textit{software} até mesmo na constituição de um \textit{software} maior com licença proprietária.
 
 \section{Software Livre Para Empresas}
 
@@ -268,15 +279,19 @@ Existem inúmeras abordagens de mercado para faturar com \textit{software} livre
 
 Ao pensar em \textit{software} livre como um produto, do ponto de vista comercial, leva ao questionamento a respeito dos custos que uma empresa pode ter, e de como arrecadar fundos para cobrí-los. Como já citado, gratuidade não é um pré-requisito de \textit{software} livre. Sendo assim, há três principais formas de arrecadação das empresas no mercado atual.
 
-A venda de softwares é uma das alternativas que desenvolvedoras como RedHat e Suse, por exemplo, adotaram para obtenção de lucros. O RedHat Enterprise Linux é a distribuição Linux desenvolvida pela empresa de seu nome. Possue foco empresarial, e como há todo um suporte exclusivo para isso, os custos são elevados. Sendo assim, é uma distribuição paga. O mesmo acontece com o Suse Linux.
+A venda de softwares é uma das alternativas que desenvolvedoras como RedHat e Suse, por exemplo, adotaram para obtenção de lucros. O Red Hat Enterprise Linux \cite{RHEL} é a distribuição Linux desenvolvida pela empresa de seu nome. Possue foco empresarial, e como há todo um suporte exclusivo para isso, os custos são elevados. Sendo assim, é uma distribuição paga. O mesmo acontece com o Suse Linux \cite{SUSE}.
 
 Há também aquelas que se mantêm atraveś de doações. A ideia é continuar oferecendo \textit{software} livre de forma gratuita. No entanto, deve haver alguma forma para o sustento da empresa. Desenvolvedoras como a Canonical, por exemplo, adotaram então o sistema de doações. Ao fazer o \textit{download} do Ubuntu, o usuário é direcionado a uma página sugerindo uma doação com o valor que achar que justo à empresa. Logicamente, isso é opcional.
 
-A terceira alternativa de sustentação de uma empresa que lida com \textit{software} livre, é o conjunto publicidade e parcerias. O correto a dizer seria que a publicidade vem através de parcerias. Essas últimas são comuns já que as desenvolvedoras costumam colocam \textit{softwares} terceiros integrados aos seus, como uma forma de promovê-los e receber patrocínio em troca. É o caso por exemplo da Mozilla, que em 2011, recebeu \textit{royalties}*referencia aqui* da Google por adotar o buscador como padrão do Firefox.
+A terceira alternativa de sustentação de uma empresa que lida com \textit{software} livre, é o conjunto publicidade e parcerias. O correto a dizer seria que a publicidade vem através de parcerias. Essas últimas são comuns já que as desenvolvedoras costumam colocam \textit{softwares} terceiros integrados aos seus, como uma forma de promovê-los e receber patrocínio em troca. É o caso por exemplo da Mozilla, que em 2011, recebeu \textit{royalties} \cite{Google} da Google por adotar o buscador como padrão do Firefox.
 
-\subsection{Software as a service}
+\subsection{Estatisticas de Mercado para SaaS}
 
-aqui vc faz
+Serviçoes de software se popularizaram no meio de desenvolvedores como uma ramificação de destinos de produção de software onde há ausência de liberdades. Muito se deve a competitividade e a flexibilidade mudança entre os serviços de um mesmo tipo. O próprio Richard Stallman classificou esse modelo de negócio como intrinsecamente ruim para sua fundação de software livre. 
+
+As licenças \textit{Affero GPL} são licenças derivadas de \textit{FOSS} dedicadas à um exemplo de serviço de software, um provedor de serviços. O provedor de serviços é uma generalização de serviços básicos ou avançados para clientes dedicados à uma rede específica. Existiram duas versões da Affero, a primeira é baseada na segunda versão do \textit{GNU General Public License}, enquanto a segunda versão, que está historicamente ligada com a primeira, e é compatível com a \textit{GNU Affero General Public License}.
+
+Empresas como a RedHat oferecem serviços de \textit{software} sob licenças livres. Um deles é o gerenciador de \textit{cloud services} ManageIQ, que, além de ter seus servços básicos livres, também é de código aberto.
 
 \subsection{Open Core}
 
@@ -289,7 +304,11 @@ Há controvérsias acerca da legitimidade do Open Core como sendo \textit{softwa
 
 \section{Tendências}
 
-olar
+Recentemente, o \textit{Software} como Serviço (SaaS) veio à tona permitindo ao usuário final acessar um \textit{software} disponível na nuvem pagando pelo seu uso. O modelo é vantajoso ao cliente final, pois modifica a relação custo-benefício ao seu favor, possibilitando uma fácil migração de um fornecedor para outro \cite{Softex}.
+
+A redução da abrangência e complexidade afetará os modelos de negócios de empresas de \textit{software} proprietário ou livres, diminuindo a necessidade de prestação de serviços de manutenção, ou capacitação do usuário, por exemplo. 
+
+Pressionadas por esses modelos de consumo, as empresas de tecnologia não podem simplesmente concentrar-se em apenas um segmento de mercado. No caso das empresas fornecedoras de \textit{software,} esse novo cenário tem causado uma profunda transformação, aumentando o investimento em aplicações de uso fácil que podem ser fornecidas pelo modo tradicional de vendas ou como serviços pela nuvem \cite{Tadeu}. Por exemplo, empresas como Apple e Google anunciaram que os desenvolvedores poderão oferecer aplicativos por assinatura em suas lojas digitais, e, no caso do Google, os desenvolvedores receberão até 85\% da assinatura assim que esse recurso for lançado \cite{Giz}.
 
 
 %--------------------------------------------------------------------------------------------------
@@ -302,10 +321,19 @@ olar
 
 \vspace{1.0cm}
 \parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{antunes.jpg}}
-\noindent {\bf Antunes Dantas da Silva}  Nasceu em Picuí, interior do estado brasileiro Paraíba. Possui formação técnica em Manutenção e Suporte em Informática pelo Instituto Federal da Paraíba Campus Campina Grande. Foi membro do Grupo de Pesquisa em Redes Convergentes. Atualmente, está na graduação em Ciência da Computação, pela Universidade Federal de Campina Grande. É membro do Programa de Educação Tutorial, onde desenvolve o Sistema de Avaliação Docente, orientado pelo professor doutor Matheus Gaudêncio do Rêgo. Tem interesse em Engenharia de Software, Desenvolvimento de Sistemas e Telecomunicações.  
+\noindent {\bf Antunes Dantas da Silva}  Nasceu em Picuí, interior do estado brasileiro Paraíba. Possui formação técnica em Manutenção e Suporte em Informática pelo Instituto Federal da Paraíba Campus Campina Grande. Foi membro do Grupo de Pesquisa em Redes Convergentes. Atualmente, está na graduação em Ciência da Computação, pela Universidade Federal de Campina Grande. É membro do Programa de Educação Tutorial, onde desenvolve o Sistema de Avaliação Docente, orientado pelo professor doutor Matheus Gaudêncio do Rêgo. Tem interesse em Engenharia de \textit{Software}, Desenvolvimento de Sistemas e Telecomunicações.  
 
+\vspace{1.0cm}
+\parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{gabriel.jpg}}
+\noindent {\bf Gabriel Silva Vinha} nasceu no Brasil, no estado de São Paulo e na cidade de São Paulo. Foi selecionado, no ano de 2014, pela embaixada dos Estados Unidos da América como um dos representantes da juventude pelo programa Jovens Embaixadores. Participou do programa de monitoria no Departamento de Sistemas e Computação, na Universidade Federal de Campina Grande. Atualmente, está na graduação em ciência da computação, pela Universidade Federal de Campina Grande. É membro do Laboratório de Sitemas Distribuídos e do \textit{Software Practices Laboratory}. É desenvolvedor part-time em um projeto da parceria entre o Laboratório de Sitemas Distribuídos, \textit{Software Practices Laboratory}, Lenovo Brasil e \textit{RedHat International}. Tem interesse na área de desenvolvimento web, com foco em aplicações e sistemas em nuvem.
+
+\vspace{1.0cm}
 \parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{italo.jpg}}
-\noindent {\bf Italo Menezes} nasceu em Recife, capital de Pernambuco, Brasil. Graduando do curso de Ciência da Computação pela Universidade Federal de Campina Grande, participou do Programa de Iniciação Científica Jr. pela OBMEP em parceria com o IMPA e o CNPq. Fez curso técnico em Desenvolvimento para Web. Atualmente, é membro do projeto de capacitação da Sony do Laboratório de Sistemas Embarcados e Computação Pervasiva (Embedded Lab). Tem interesse em Engenharia de Software e Desenvolvimento para Sistemas Embarcados, com foco em Mobile e Web.
+\noindent {\bf Italo Menezes de L. Poroca} nasceu em Recife, capital de Pernambuco, Brasil. Graduando do curso de Ciência da Computação pela Universidade Federal de Campina Grande, participou do Programa de Iniciação Científica Jr. pela OBMEP em parceria com o IMPA e o CNPq. Fez curso técnico em Desenvolvimento para \textit{Web}. Atualmente, é membro do projeto de capacitação da Sony do Laboratório de Sistemas Embarcados e Computação Pervasiva (\textit{Embedded Lab}). Tem interesse em Engenharia de \textit{Software}e Desenvolvimento para Sistemas Embarcados, com foco em \textit{mobile} e \textit{web}.
+
+\vspace{1.0cm}
+\parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{valter.jpg}}
+\noindent {\bf Valter Vinícius Marinho de Lucena} Nasceu em Patos, Paraíba, Brasil. Possui formação técnica em Manutenção e Suporte em Informática pelo Instituto Federal da Paraíba - Campus Patos. Atualmente graduando em Ciência da Computação pela Universidade Federal de Campina Grande.
 
 
 %\end{tabular}
