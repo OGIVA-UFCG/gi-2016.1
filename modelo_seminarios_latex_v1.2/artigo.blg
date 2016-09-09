@@ -22,50 +22,76 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: artigo_bibliografia.bib
 Warning--entry type for "Visible:2013" isn't style-file defined
 --line 72 of file artigo_bibliografia.bib
+Warning--entry type for "Campos:2016" isn't style-file defined
+--line 79 of file artigo_bibliografia.bib
+Warning--entry type for "Jose:2016" isn't style-file defined
+--line 86 of file artigo_bibliografia.bib
+Warning--entry type for "Brodkin" isn't style-file defined
+--line 104 of file artigo_bibliografia.bib
+I was expecting a `,' or a `}'---line 106 of file artigo_bibliografia.bib
+ : title = {Ubuntu maker boosted revenue in 2013 but doubled loss to \$21 million}
+ :                                                                                .
+I'm skipping whatever remains of this entry
+Warning--entry type for "Red" isn't style-file defined
+--line 111 of file artigo_bibliografia.bib
+I was expecting a `,' or a `}'---line 113 of file artigo_bibliografia.bib
+ : title = {"RED HAT INC 2014 Annual Report Form (10-K)"}
+ :                                                       .
+I'm skipping whatever remains of this entry
+Warning--entry type for "Mozilla" isn't style-file defined
+--line 118 of file artigo_bibliografia.bib
+I was expecting a `,' or a `}'---line 120 of file artigo_bibliografia.bib
+ : title = {INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS}
+ :                                                                             .
+I'm skipping whatever remains of this entry
+Warning--entry type for "Hecker:2016" isn't style-file defined
+--line 125 of file artigo_bibliografia.bib
+Warning--entry type for "Castro" isn't style-file defined
+--line 132 of file artigo_bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
+You've used 13 entries,
             7128 wiz_defined-function locations,
-            1156 strings with 9847 characters,
-and the built_in function-call counts, 132167 in all, are:
-= -- 25742
-> -- 75
-< -- 41
-+ -- 16791
-- -- 35
-* -- 2364
-:= -- 22525
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 53
-chr.to.int$ -- 60
-cite$ -- 5
-duplicate$ -- 332
-empty$ -- 736
-format.name$ -- 72
-if$ -- 34511
+            1197 strings with 10850 characters,
+and the built_in function-call counts, 566591 in all, are:
+= -- 112476
+> -- 168
+< -- 86
++ -- 75143
+- -- 111
+* -- 8455
+:= -- 95135
+add.period$ -- 10
+call.type$ -- 13
+change.case$ -- 210
+chr.to.int$ -- 107
+cite$ -- 13
+duplicate$ -- 805
+empty$ -- 1714
+format.name$ -- 168
+if$ -- 149332
 int.to.chr$ -- 1
-int.to.str$ -- 12
-missing$ -- 152
-newline$ -- 162
-num.names$ -- 25
-pop$ -- 176
+int.to.str$ -- 28
+missing$ -- 396
+newline$ -- 305
+num.names$ -- 65
+pop$ -- 467
 preamble$ -- 1
-purify$ -- 21
-quote$ -- 10
-skip$ -- 15845
+purify$ -- 53
+quote$ -- 26
+skip$ -- 69821
 stack$ -- 0
-substring$ -- 11777
-swap$ -- 66
-text.length$ -- 80
+substring$ -- 50016
+swap$ -- 126
+text.length$ -- 216
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 181
+type$ -- 436
 warning$ -- 0
-while$ -- 127
+while$ -- 334
 width$ -- 0
-write$ -- 179
-(There was 1 warning)
+write$ -- 354
+(There were 3 error messages)
