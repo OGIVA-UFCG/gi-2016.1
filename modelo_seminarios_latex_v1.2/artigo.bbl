@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{5}
+\begin{thebibliography}{13}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -43,6 +43,15 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
+\bibitem{Campos:2016}
+\begin{botherref}
+\oauthor{\bsnm{Campos}, \binits{A.}}:
+O Que {\'E} Software Livre.
+http://br-linux.org/linux/faq-softwarelivre
+\end{botherref}
+\endbibitem
+
+%%% 2
 \bibitem{Rosenfeld:1970}
 \begin{bchapter}
 \bauthor{\bsnm{Rosenfeld}, \binits{A.}},
@@ -56,7 +65,7 @@ pp. \bfpage{115}--\blpage{124}
 \end{bchapter}
 \endbibitem
 
-%%% 2
+%%% 3
 \bibitem{Domingues:2010}
 \begin{botherref}
 \oauthor{\bparticle{de} \bsnm{Oliveira~Domingues}, \binits{M.A.}}:
@@ -69,7 +78,7 @@ Recife
 \end{botherref}
 \endbibitem
 
-%%% 3
+%%% 4
 \bibitem{Diday:1989}
 \begin{botherref}
 \oauthor{\bsnm{Diday}, \binits{E.}}:
@@ -80,7 +89,7 @@ Institut National de Recherche en Informatique et en Automatique, INRIA
 \end{botherref}
 \endbibitem
 
-%%% 4
+%%% 5
 \bibitem{Visible:2013}
 \begin{botherref}
 \oauthor{\bsnm{Lutkebohle}, \binits{I.}}:
@@ -89,7 +98,7 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
 \end{botherref}
 \endbibitem
 
-%%% 5
+%%% 6
 \bibitem{Fulano:2009}
 \begin{bbook}
 \bauthor{\bparticle{de} \bsnm{tal}, \binits{F.}}:
@@ -101,6 +110,69 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
 \end{bbook}
 \endbibitem
 
+%%% 7
+\bibitem{Jose:2016}
+\begin{botherref}
+\oauthor{\bsnm{Silva}, \binits{J.}}:
+Economia e Liberdade: O Software Livre Une O {\'U}til Ao Agrad{\'a}vel.
+https://www.vivaolinux.com.br/artigo/Economia-e-liberdade-o-software-livre-une-o-util-ao-agradavel
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{Hecker:2016}
+\begin{botherref}
+\oauthor{\bsnm{Hecker}, \binits{F.}}:
+Setting Up Shop: The Business of Open-Source Software.
+http://hecker.org/writings/setting-up-shop
+\end{botherref}
+\endbibitem
+
+%%% 9
+\bibitem{Castro}
+\begin{botherref}
+\oauthor{\bparticle{de} \bsnm{Castro}, \binits{D.}}:
+Entenda Por Que Software Livre {\'E} Mais Seguro.
+http://www.ebc.com.br/tecnologia/2015/07/entenda-por-que-software-livre-e-mais-seguro-que-software-proprietario
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem{Brodkin}
+\begin{botherref}
+\oauthor{\bsnm{Brodkin}, \binits{J.}}:
+Ubuntu Maker Boosted Revenue in 2013 but Doubled Loss to \$21 Million
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem{Mozilla}
+\begin{botherref}
+\oauthor{\bsnm{Mozilla}}:
+INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL STATEMENTS
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem{Red}
+\begin{botherref}
+\oauthor{\bsnm{Hat}, \binits{R.}}:
+"RED HAT INC 2014 Annual Report Form (10-K)"
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{riehle2012single}
+\begin{barticle}
+\bauthor{\bsnm{Riehle}, \binits{D.}}:
+\batitle{The single-vendor commercial open course business model}.
+\bjtitle{Information Systems and e-Business Management}
+\bvolume{10}(\bissue{1}),
+\bfpage{5}--\blpage{17}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
 \end{thebibliography}
 
 \newcommand{\BMCxmlcomment}[1]{}
@@ -110,6 +182,15 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
 <refgrp>
 
 <bibl id="B1">
+  <title><p>O que {\'e} software livre</p></title>
+  <aug>
+    <au><snm>Campos</snm><fnm>A</fnm></au>
+  </aug>
+  <pubdate>2006</pubdate>
+  <note>http://br-linux.org/linux/faq-softwarelivre</note>
+</bibl>
+
+<bibl id="B2">
   <title><p>Visual texture analysis</p></title>
   <aug>
     <au><snm>Rosenfeld</snm><fnm>A.</fnm></au>
@@ -123,7 +204,7 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
   <lpage>124</lpage>
 </bibl>
 
-<bibl id="B2">
+<bibl id="B3">
   <title><p>M{\'e}todos Robustos de Regress{\~a}o Linear para Dados
   Simb{\'o}licos do Tipo Intervalo</p></title>
   <aug>
@@ -134,7 +215,7 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
   <pubdate>2010</pubdate>
 </bibl>
 
-<bibl id="B3">
+<bibl id="B4">
   <title><p>Introduction {\`a} l'analyse des donn{\'e}es
   symboliques.</p></title>
   <aug>
@@ -144,7 +225,7 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
   <pubdate>1989</pubdate>
 </bibl>
 
-<bibl id="B4">
+<bibl id="B5">
   <title><p>BWorld Robot Control Software</p></title>
   <aug>
     <au><snm>Lutkebohle</snm><fnm>I</fnm></au>
@@ -153,7 +234,7 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
   <note>http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008</note>
 </bibl>
 
-<bibl id="B5">
+<bibl id="B6">
   <title><p>Livro de Eng. Civil</p></title>
   <aug>
     <au><snm>tal</snm><fnm>F</fnm></au>
@@ -161,6 +242,71 @@ http://www.nlm.nih.gov/research/visible/ - accessed 19-July-2008
   <publisher>New York, NY, USA: McGraw-Hill, Inc.</publisher>
   <edition>6</edition>
   <pubdate>2005</pubdate>
+</bibl>
+
+<bibl id="B7">
+  <title><p>Economia e liberdade: o software livre une o {\'u}til ao
+  agrad{\'a}vel</p></title>
+  <aug>
+    <au><snm>Silva</snm><fnm>J</fnm></au>
+  </aug>
+  <pubdate>2009</pubdate>
+  <note>https://www.vivaolinux.com.br/artigo/Economia-e-liberdade-o-software-livre-une-o-util-ao-agradavel</note>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Setting Up Shop: The Business of Open-Source Software</p></title>
+  <aug>
+    <au><snm>Hecker</snm><fnm>F</fnm></au>
+  </aug>
+  <pubdate>2000</pubdate>
+  <note>http://hecker.org/writings/setting-up-shop</note>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Entenda por que software livre {\'e} mais seguro</p></title>
+  <aug>
+    <au><snm>Castro</snm><fnm>D</fnm></au>
+  </aug>
+  <pubdate>2015</pubdate>
+  <note>http://www.ebc.com.br/tecnologia/2015/07/entenda-por-que-software-livre-e-mais-seguro-que-software-proprietario</note>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Ubuntu maker boosted revenue in 2013 but doubled loss to \$21
+  million</p></title>
+  <aug>
+    <au><snm>Brodkin</snm><fnm>J</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B11">
+  <title><p>INDEPENDENT AUDITORS? REPORT AND CONSOLIDATED FINANCIAL
+  STATEMENTS</p></title>
+  <aug>
+    <au><cnm>Mozilla</cnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B12">
+  <title><p>"RED HAT INC 2014 Annual Report Form (10-K)"</p></title>
+  <aug>
+    <au><snm>Hat</snm><fnm>R</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B13">
+  <title><p>The single-vendor commercial open course business model</p></title>
+  <aug>
+    <au><snm>Riehle</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Information Systems and e-Business Management</source>
+  <publisher>Springer</publisher>
+  <pubdate>2012</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>5</fpage>
+  <lpage>-17</lpage>
 </bibl>
 
 </refgrp>

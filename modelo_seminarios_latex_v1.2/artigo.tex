@@ -124,17 +124,17 @@
 \begin{abstractbox}
 	
 \begin{abstract} 
-Escrever no máximo $150$ palavras no resumo do trabalho. Exemplo: The objective of this work is to determine if people are interacting in TV video by detecting whether they are looking at each other or not.We determine both the temporal period of the interaction and also spatially localize the relevant people. We make the following four contributions: (\textit{i}) head detection with implicit coarse pose information (front, profile, back); (\textit{ii}) continuous head pose estimation in unconstrained scenarios (TV video) using Gaussian process regression; (\textit{iii}) propose and evaluate several methods for assessing whether and when pairs of people are looking at each other in a video shot; and (\textit{iv}) introduce new ground truth annotation for this task, extending the TV human interactions dataset. The performance of the methods is evaluated on this dataset, which consists of $300$ video clips extracted from TV shows. Despite the variety and difficulty of this video material, our best method obtains an average precision of $87.6\%$ in a fully automatic manner.
+Este trabalho tem como objetivo fazer um estudo sobre o \textit{software} livre e suas aplicações comerciais. Atualmente, o uso de \textit{software} livre tem crescido bastante e é preciso entender o que seria, detalhadamente, \textit{software} livre. Além disso, este trabalho mostra como empresas mudaram seu posicionamento de mercado para se adaptarem a essa realidade e quais são os principais meios de gerar receita através do \textit{software} livre.
 \end{abstract}
 
 %--------------------------------------------------------------------------------------------------
 % Palavras-chaves: Entre 3 e 6 palavras chaves
 %--------------------------------------------------------------------------------------------------
 \begin{keyword}
-  \kwd{Escreva}
-  \kwd{algumas}
-  \kwd{palavras-chaves}
-  \kwd{aqui!}
+  \kwd{\textit{software} livre}
+  \kwd{computação}
+  \kwd{código aberto}
+  \kwd{negócios em computação}
 \end{keyword}
 
 \end{abstractbox} % Não alterar
@@ -149,13 +149,13 @@ Escrever no máximo $150$ palavras no resumo do trabalho. Exemplo: The objective
 %------------------------------------------------
 \section{Introdução}
 
-O \textit{software} livre é uma realidade que existe desde os primórdios da computação. Baseando-se na ideia básica de que o código fonte deve ser público, o movimento do \textit{software} livre gerou, e ainda gera, bastante polêmica dentre a comunidade da tecnologia da informação, especialmente quando o assunto tange as grandes corporações que lucram com a venda de \textit{softwares} proprietários. Como movimento, iniciou em 1983 com um americano chamado Richard Stallman, que liderou o desenvolvimento de um sistema operacional baseado totalmente nas ideias do \textit{software} livre.
+O \textit{software} livre é uma realidade que existe desde os primórdios da computação. Baseando-se na ideia básica de que o código fonte deve ser público, o movimento do \textit{software} livre gerou, e ainda gera, bastante polêmica dentre a comunidade da tecnologia da informação, especialmente quando o assunto tange as grandes corporações que lucram com a venda de \textit{softwares} proprietários. Como movimento, iniciou em 1983 \cite{Campos:2016} com um americano chamado Richard Stallman, que liderou o desenvolvimento de um sistema operacional baseado totalmente nas ideias do \textit{software} livre.
 
 Para ser considerado livre, um \textit{software} deve seguir determinadas "leis", que definem como ele deve ser publicado. Para facilitar a publicação, foram criadas licenças genéricas que servem para qualquer \textit{software}.
 
 Um dos principais questionamentos quando o assunto é tratado é como empresas podem faturar fabricando código aberto. Como será exposto posteriormente, existem diversos modelos de negócios que podem ser abordados para este fim.
 
-Este artigo seguirá a seguinte estrutura: na seção 2, será mostrada a motivação para este estudo. Na seção 3, o tema \textit{software} livre será abordado de maneira mais detalhada, bem como modalidades que onde este é encontrado. Na seção 4, será realizado um breve estudo sobre as principais licenças de publicação. Finalmente, na seção 5, será tratado como empresas podem fazer o uso de \textit{software} livre: tanto no lado cliente quanto no lado empresas produtoras. A seção 6 fará uma discussão sobre o futuro da distribuição dos \textit{softwares} e como o \textit{software} livre se encaixa nessa realidade futura.
+Este artigo seguirá a seguinte estrutura: na seção 2, será mostrada a motivação para este estudo. Na seção 3, o tema \textit{software} livre será abordado de maneira mais detalhada, bem como modalidades onde este é encontrado. Na seção 4, será realizado um breve estudo sobre as principais licenças de publicação. Finalmente, na seção 5, será tratado como empresas podem fazer o uso de \textit{software} livre: tanto no lado cliente quanto no lado empresas produtoras. A seção 6 fará uma discussão sobre o futuro da distribuição dos \textit{softwares} e como o \textit{software} livre se encaixa nessa realidade.
 
 
 %------------------------------------------------
@@ -238,6 +238,31 @@ tarara
 
 \section{Software Livre Para Empresas}
 
+O uso de \textit{software} livre em ambientes domésticos, comerciais e empresariais tem crescido bastante nos últimos anos. O governo brasileiro, inclusive, tem investido bastante em soluções livres nos seus computadores \cite{Jose:2016}. O mercado em geral também está abraçando a ideia e isso tem feito com que cada vez mais empresas surjam com foco no desenvolvimento de aplicaçãoes baseadas em \textit{software} livre \cite{Hecker:2016}.
+
+Para o cliente, há inúmeros benefícios no uso de \textit{software} livre em suas máquinas. Em primeiro lugar: economia. Para o usuário final, isso significa menos um custo. Para empresas, uma enorme economia.
+
+Para facilitar, pode-se imaginar uma empresa de \textit{call center}: em uma empresa deste tipo, há muitos computadores. A empresa imaginária teria 1000 computadores para uso dos atendentes mais 200 computadores para uso de supervisores e gerentes. No total, 1.200 máquinas que precisam de um sistema operacional e, no caso das máquinas dos supervisores e gerentes, suíte de escritório.
+
+Levando em conta que o custo médio da licença de um sistema operacional proprietário é R\$ 200,00, apenas com este recurso, a empresa gastaria R\$ 240.000,00. Com o uso de \textit{software} livre, a empresa economizaria bastante dinheiro ao adotar um sistema operancional de código aberto, como o Debian.
+
+Além do benefício financeiro, \textit{softwares} livres são, geralmente, mais seguros \cite{Castro}. Isso acontece por que com o código fonte disponível, qualquer programador pode descobrir um \textit{bug} (erro) e submeter uma correção para ele. O Linux, \textit{kernel} de sistema operacional livre mais difundido no mundo é considerado o sistema operacional mais seguro.
+
+Outro benefício é a facilidade na alteração do funcionamento de algum programa. Com o código aberto, um empresário, por exemplo, pode requisitar a alguma empresa que altere o comportamento de um programa, ou acrescente algo, para adequá-lo à sua realidade e aos seus problemas.
+
+Porém, para o lado das fabricantes de \textit{software}, quais as vantagens de fabricar \textit{software} livre?
+
+Muitas pessoas quando ouvem o termo \textit{software} livre o associam à \textit{software} gratuito. Isso não é verdade. \textit{Software} livre não quer dizer \textit{software} gratuito e existem diversas abordagens comerciais que podem ser utilizadas para monetizar programas de código aberto.
+
+Existem inúmeras empresas que lucram com o \textit{software} livre. A Canonical, desenvolvedora da distribuição Linux Ubuntu tem uma receita anual de \$ 65,7 milhões de dólares \cite{Brodkin}. Ela se mantém através de doações e acordos comerciais para inserir conteúdo patrocinado dentro dos seus \textit{softwares}.
+
+A Mozilla, empresa responsável pelo popular navegador de internet Firefox tem uma receita de \$ 330 milhões de dólares anuais \cite{Mozilla}. O Firefox, mesmo sendo  um \textit{softwares} livre, gera boa parte dessa receita através de acordo com empresas para agregação de serviços (como o Google Search ser o buscador padrão do navegador) e propagandas em algumas seções do navegador, como a aba "Nova Guia".
+
+A Red Hat é, sem dúvida, uma das mais bem sucedidas empresas no ramo do \textit{softwares} livre. Ela atua através do fornecimento de soluções corporativas. Seus principais produtos são armazenamento, sistemas operacionais, consultoria, treinamento e suporte. Ela utiliza várias abordagens de mercado para vender seus serviços e isso tem dado muito certo. Em 2014, sua receita foi de \$ 1,53 bilhões de dólares \cite{Red}. Seus serviços são amplamente utilizados e bem aceitos no mercado.
+
+Essas empresas todas trabalham desenvolvendo \textit{software} livre e tem uma receita considerável. Existem inúmeros outros exemplos de sucesso com o \textit{software} livre: Android, Apache, LibreOffice, Swift são exemplos de aplicações de sucesso no mundo do \textit{software} livre. 
+
+Existem inúmeras abordagens de mercado para faturar com \textit{software} livre. Prover suporte, treinamento, consultoria, propaganda, dentre outros, são alguns exemplos disso. A seguir, será apresentado as três principais abordagens de mercado para o \textit{software} livre.
 
 \subsection{Estatisticas de Mercado para SaaP}
 
@@ -253,7 +278,14 @@ A terceira alternativa de sustentação de uma empresa que lida com \textit{soft
 
 aqui vc faz
 
-\subsection{core}
+\subsection{Open Core}
+
+O Open Core é um modelo de negócio baseado no uso misto entre \textit{software} livre e \textit{software} fechado. No Open Core, as empresas disponibilizam uma versão básica, porém útil, de algum sistema feito como \textit{software} livre e vendem complementos para esse sistema \cite{riehle2012single}. Esse complementos, como o próprio nome deixa claro, acrescenta alguma funcionalidade no sistema. Existem inúmeras soluções baseadas no Open Core, como o MySQL da Oracle. É um modelo de negócio muito interessante pois permite que empresas foquem no desenvolvimento de partes pequenas do sistema, produzindo com melhor qualidade e podendo oferecer um melhor suporte.
+A já citada Red Hat também faz uso do Open Core no seu serviço JBoss. 
+
+Para os clientes, é uma abordagem bastante interessante por que permite economizar ao usar um grande \textit{software} livre gratuito e comprar apenas complementos que precisar.
+
+Há controvérsias acerca da legitimidade do Open Core como sendo \textit{software} livre. Muitas pessoas dizem que pelo fato dos complementos serem, geralmente, de código fechado, não há como classificá-lo como \textit{software} livre. Porém, é uma estratégia de bom senso e que vem dando certo no mercado em geral.
 
 \section{Tendências}
 
@@ -269,18 +301,8 @@ olar
 \bibliography{artigo_bibliografia} % NAO EDITAR! - Bibliography file (usually '*.bib' )
 
 \vspace{1.0cm}
-\parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{tesla.jpg}}
-\noindent {\bf Fulano de Tal} was born in India. She received the B.S. 
-degree in computer science from Kurukshetra University, Kurukshetra, 
-India and the M.Phil. and Ph.D. degrees from the University of Exeter, 
-Exeter, UK in 1999, 2001 and 2004, respectively. Her Ph.D. was in the 
-area of machine learning for image analysis in aviation security. Her 
-main research interests include image processing, natural scene analysis,
-video analysis, and neural networks. She has published more than 30 papers
-in the area of machine learning for image analysis in peer reviewed 
-journals and conferences. Currently she is a Senior Research Fellow at
-Loughborough University leading the project on imaging for road transport
-applications.
+\parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{antunes.jpg}}
+\noindent {\bf Antunes Dantas da Silva}  Nasceu em Picuí, interior do estado brasileiro Paraíba. Possui formação técnica em Manutenção e Suporte em Informática pelo Instituto Federal da Paraíba Campus Campina Grande. Foi membro do Grupo de Pesquisa em Redes Convergentes. Atualmente, está na graduação em Ciência da Computação, pela Universidade Federal de Campina Grande. É membro do Programa de Educação Tutorial, onde desenvolve o Sistema de Avaliação Docente, orientado pelo professor doutor Matheus Gaudêncio do Rêgo. Tem interesse em Engenharia de Software, Desenvolvimento de Sistemas e Telecomunicações.
 
 \parpic{\includegraphics[width=1.5in,clip,keepaspectratio]{tesla.jpg}}
 \noindent {\bf Fulano de Tal} was born in India. She received the B.S. 
