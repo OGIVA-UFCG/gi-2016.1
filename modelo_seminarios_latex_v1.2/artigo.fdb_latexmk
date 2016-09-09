@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex artigo"] 1473392719 "artigo.aux" "artigo.bbl" "artigo" 1473392719
+["bibtex artigo"] 1473392719 "artigo.aux" "artigo.bbl" "artigo" 1473393725
   "./bmc-mathphys.bst" 1473252029 61107 bd6c4e69bfcd6c29573298df46cec934 ""
-  "artigo.aux" 1473392443 2830 aa1386f3d115b8c24c47664882b99081 ""
+  "artigo.aux" 1473393725 2830 aa1386f3d115b8c24c47664882b99081 ""
   "artigo.bcf" 0 -1 0 ""
   "artigo_bibliografia.bib" 1473392645 4718 7551fdc803071b9576ae04748b2cc578 ""
   (generated)
-  "artigo.blg"
   "artigo.bbl"
-["pdflatex"] 1473392442 "artigo.tex" "artigo.pdf" "artigo" 1473392443
+  "artigo.blg"
+["pdflatex"] 1473393724 "artigo.tex" "artigo.pdf" "artigo" 1473393725
   "./antunes.jpg" 1473389263 11834 35818bbcdfb4803295b3469fdddd68f8 ""
   "./tesla.jpg" 1473252029 43388 09d37e474f253265cae960323faebb6b ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -124,14 +124,14 @@
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "IEEEtrantools.sty" 1473252029 83332 242a9e036f4048e8a42bf9deefd603ac ""
   "antunes.jpg" 1473389263 11834 35818bbcdfb4803295b3469fdddd68f8 ""
-  "artigo.aux" 1473392443 2830 aa1386f3d115b8c24c47664882b99081 ""
-  "artigo.bbl" 1473392435 8757 dfb4ef1df062b65ea44f7fe30608f252 "bibtex artigo"
-  "artigo.tex" 1473392442 19269 67039adfe0f34c54d668d6fbabd6e06f ""
+  "artigo.aux" 1473393725 2830 aa1386f3d115b8c24c47664882b99081 ""
+  "artigo.bbl" 1473392719 8757 2ef1b9dc027f922c28b6b10fa469e5de "bibtex artigo"
+  "artigo.tex" 1473393723 19256 d5940486cca9ccc966554e3bc25c4e6c ""
   "classe_cn.cls" 1473391679 54669 8c116039a638fbf94c044dda8cb1ad95 ""
   "omlmathbf.sty" 1473252029 1427 0ffc8376725c2d6fe4d094e170875245 ""
   "picins.sty" 1473259160 17807 916739e9c8f52c6a085688f05d1594e2 ""
   "tesla.jpg" 1473252029 43388 09d37e474f253265cae960323faebb6b ""
   (generated)
+  "artigo.log"
   "artigo.pdf"
   "artigo.aux"
-  "artigo.log"
