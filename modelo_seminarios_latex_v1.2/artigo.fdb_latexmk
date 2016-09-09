@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex artigo"] 1473382568 "artigo.aux" "artigo.bbl" "artigo" 1473384859
+["bibtex artigo"] 1473389031 "artigo.aux" "artigo.bbl" "artigo" 1473389909
   "./bmc-mathphys.bst" 1473252029 61107 bd6c4e69bfcd6c29573298df46cec934 ""
-  "artigo.aux" 1473384859 2473 9ee4926283ba46daad6b56ee94395a29 ""
+  "artigo.aux" 1473389909 2478 2d354a9d53f93be7e19d8b73d30d093b ""
   "artigo.bcf" 0 -1 0 ""
   "artigo_bibliografia.bib" 1473377166 3146 d018f44cff948f71cb5371594d1f8cee ""
   (generated)
   "artigo.bbl"
   "artigo.blg"
-["pdflatex"] 1473384858 "artigo.tex" "artigo.pdf" "artigo" 1473384859
+["pdflatex"] 1473389909 "artigo.tex" "artigo.pdf" "artigo" 1473389909
+  "./antunes.jpg" 1473389263 11834 35818bbcdfb4803295b3469fdddd68f8 ""
   "./tesla.jpg" 1473252029 43388 09d37e474f253265cae960323faebb6b ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -119,9 +120,10 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "IEEEtrantools.sty" 1473252029 83332 242a9e036f4048e8a42bf9deefd603ac ""
-  "artigo.aux" 1473384859 2473 9ee4926283ba46daad6b56ee94395a29 ""
-  "artigo.bbl" 1473382568 5028 f43cff82e1f796342a0cd2fc0ef8e0ef "bibtex artigo"
-  "artigo.tex" 1473384858 18570 418e9a71b7fda286783abf22b5a5794e ""
+  "antunes.jpg" 1473389263 11834 35818bbcdfb4803295b3469fdddd68f8 ""
+  "artigo.aux" 1473389909 2478 2d354a9d53f93be7e19d8b73d30d093b ""
+  "artigo.bbl" 1473389031 5028 f43cff82e1f796342a0cd2fc0ef8e0ef "bibtex artigo"
+  "artigo.tex" 1473389908 19135 576bae4819a0e4efb4ea69d8a9847cc8 ""
   "classe_cn.cls" 1473252029 54669 8c116039a638fbf94c044dda8cb1ad95 ""
   "omlmathbf.sty" 1473252029 1427 0ffc8376725c2d6fe4d094e170875245 ""
   "picins.sty" 1473259160 17807 916739e9c8f52c6a085688f05d1594e2 ""
